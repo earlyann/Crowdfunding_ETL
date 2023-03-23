@@ -3,6 +3,8 @@
 ## Project Overview
 In this project, I built an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform data. The goal was to create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, I uploaded the CSV file data into a Postgres database.
 
+My partner Erica Graboyes worked through the same project. Her code is different than mine and on her GitHub. 
+
 ### Technologies Used
  - Python
  - Pandas
