@@ -39,6 +39,6 @@ Create the Contacts DataFrame: I extracted and transformed the data from the con
 - Created a new DataFrame that contained the extracted data.
 - Split each "name" column value into a first and last name, and placed each in a new column.
 - Cleaned and exported the DataFrame as contacts.csv and saved it to GitHub.
-- Create the Crowdfunding Database: We sketched an ERD of the tables by inspecting the four CSV files and used the information from the ERD to create a table schema for each CSV file. I specified the data types, primary keys, foreign keys, and other constraints and saved the database schema as a Postgres file named crowdfunding_db_schema.sql. I then created a new Postgres database and uploaded each of the saved dataframe csvs to the new crowdfunding_db. SQL SELECT statements verify the data integreity. 
+- Create the Crowdfunding Database: We sketched an ERD of the tables by inspecting the four CSV files and used the information from the ERD to create a table schema for each CSV file. I specified the data types, primary keys, foreign keys, and other constraints and saved the database schema as a Postgres file named crowdfunding_db_schema.sql. I then created a new Postgres database and uploaded each of the saved dataframe csvs to the new crowdfunding_db. SQL SELECT statements verify the data integrity. 
 
 Author: Lacey Morgan
