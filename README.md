@@ -36,5 +36,3 @@ The following steps were taken to complete the project:
 4. Created the Crowdfunding Database: Sketched an ERD of the tables by inspecting the four CSV files and used the information from the ERD to create a table schema for each CSV file. Specified the data types, primary keys, foreign keys, and other constraints and saved the database schema as a Postgres file named crowdfunding_db_schema.sql. Created a new Postgres database and uploaded each of the saved dataframe csvs to the new crowdfunding_db. SQL SELECT statements verified the data integrity.
 
 Author: Lacey Morgan
-
-Note: Erica Graboyes also worked on this project with her own code, which is available on her GitHub.
