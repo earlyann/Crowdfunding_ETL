@@ -25,10 +25,11 @@ The following steps were taken to complete the project:
   - backers_count column
   - country column
   - currency column
-  - launched_at column, renamed to "launch_date" and with the UTC times converted to the datetime format
+  - launched_at column, renamed to "launch_date" and with the UTC times converted to datetime
   - deadline column, renamed to "end_date" and with the UTC times converted to the datetime format
-  - category_id column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
-  - subcategory_id column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame. Exported the campaign DataFrame as campaign.csv.
+  - category_id column, the unique "category_id" from the category DataFrame
+  - subcategory_id column,  the unique "subcategory_id" from the subcategory DataFrame. 
+  - Exported the campaign DataFrame as campaign.csv.
 
 3. Created the Contacts DataFrame: Extracted and transformed the data from the contacts.xlsx Excel file using Python dictionary methods. Imported the contacts.xlsx file into a DataFrame, iterated through the DataFrame, converting each tuple to a dictionary, created a new DataFrame that contained the extracted data, split each "name" column value into a first and last name, and placed each in a new column. Cleaned and exported the DataFrame as contacts.csv and saved it to GitHub.
 
